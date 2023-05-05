@@ -1,0 +1,13 @@
+<?php 
+
+if(isset($_POST['Add to cart'])){
+
+insert INTO painting (id_painting,id_admin,id_customer,name,priec,sort,date) VALUES ($id_painting,$id_admin,$id_customer,$name,$priec,$sort,$date);
+
+SELECT COUNT(id_painting);
+
+FROM painting
+
+};
+ 
+?>

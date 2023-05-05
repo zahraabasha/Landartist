@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    
+    <style>
+/* 3D Slideshow */ 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #000000;
+}
+
+#slideshow {
+	margin: 0 auto;
+	padding-top: 150px;
+	height: 700px;
+	width: 100%;
+	background-color: #000000;
+	box-sizing: border-box;
+}
+
+.slideshow-title {
+	font-family: 'Allerta Stencil';
+	font-size: 62px;
+	color: #000000;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.sub-heading {
+	padding-top: 50px;
+	font-size: 18px;
+} .sub-heading-two {
+	font-size: 15px;
+} .sub-heading-three {
+	font-size: 13px;
+} .sub-heading-four {
+	font-size: 11px;
+} .sub-heading-five {
+	font-size: 9px;
+} .sub-heading-six {
+	font-size: 7px;
+} .sub-heading-seven {
+	font-size: 5px;
+} .sub-heading-eight {
+	font-size: 3px;
+} .sub-heading-nine {
+	font-size: 1px;
+}
+
+.entire-content {
+	margin: auto;
+	width: 400px;
+	margin-top:-140px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+
+.content-carrousel {
+	width: 400px;
+	position: absolute;
+	float: right;
+	animation: rotar 15s infinite linear;
+	transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrousel figure {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #3b444b;
+	overflow: hidden;
+	position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(10) {
+	transform: rotateY(340deg) translateZ(300px); 
+} 
+footer .container {
+	background: #333;
+	margin-top: 370px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li{
+	list-style: none;
+	
+	background: #3b444b;
+	display: inline-block;
+	margin: 7px 7px;
+}
+  ul li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+  text-transform: uppercase ;
+}
+ ul li  a :hover {
+	color: burlywood;
+}
+footer h4{
+	color: floralwhite;
+}
+footer p{
+	color: floralwhite;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
+}
+
+.content-carrousel img {
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 200px;
+	height: 300px;
+}
+
+.content-carrousel img:hover {
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+</style>
+</head>
+<body>
+<!-- 3D Slideshow Section --> 
+<section id="slideshow">
+<div class="entire-content">
+<div class="content-carrousel">
+<figure class="shadow"><img src="img/a9.png"/></figure>
+<figure class="shadow"><img src="img/a8.png"/></figure>
+<figure class="shadow"><img src="img/a7.png"/></figure>
+<figure class="shadow"><img src="img/a6.png"/></figure>
+<figure class="shadow"><img src="img/a5.png"/></figure>
+<figure class="shadow"><img src="img/a4.png"/></figure>
+<figure class="shadow"><img src="img/a3.png"/></figure>
+<figure class="shadow"><img src="img/a2.png"/></figure>
+<figure class="shadow"><img src="img/a1.png"/></figure>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+<!-- Footer Start-->
+<div class="container">
+
+<!-- logo -->
+<div class="footer-logo">
+<a href="index.html"><h1 >Artist'land </h1></a>
+</div>
+
+<div class="footer-pera">
+<p>In case of communication and inquiries, please contact and choose ...</p>
+</div>
+<div class="footer-tittle">
+<h4>Inquiry & Contact </h4>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="form3.php"> Login</a></li>
+<li><a href="shop.html"> products</a></li>
+<li><a href="contact.html"> Contact Us</a></li>
+<li><a href="index.html">Home Page </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-5 col-lg-4 col-md-5">
+<div class="footer-copy-right f-right">                        
+</div>
+<!-- Footer End-->
+</footer>
+</section>
+<!--? Search model Begin -->
+<div class="search-model-box">
+<div class="h-100 d-flex align-items-center justify-content-center">
+<div class="search-close-btn">+</div>
+<form class="search-model-form">
+<input type="text" id="search-input" placeholder="Searching key.....">
+</form>
+</div>
+</div>
+<!-- Search model end -->
+
+
+<!-- JS here -->
+
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+
+<!-- One Page, Animated-HeadLin -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
+
+<!-- Scrollup, nice-select, sticky -->
+<script src="./assets/js/jquery.scrollUp.min.js"></script>
+<script src="./assets/js/jquery.nice-select.min.js"></script>
+<script src="./assets/js/jquery.sticky.js"></script>
+
+<!-- contact js -->
+<script src="./assets/js/contact.js"></script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->	
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
+
+
+</body>
+</html>
